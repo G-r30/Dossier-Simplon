@@ -1,0 +1,127 @@
+body{ 
+	font-size: 20px;
+	background-image: url("http://127.0.0.1:5500/images/fondDaliclair.jpg"); 
+	background-size: 100%;
+}
+@font-face{
+	font-family: 'cac_Action_Man';
+	src: url('cac_Action_Man-webfont.eot');
+	src: url('cac_Action_Man-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('cac_Action_Man-webfont.woff') format('woff'),
+			 url('cac_Action_Man-webfont.ttf') format('truetype'),
+			 url('cac_Action_Man-webfont.svg#cac_Action_Man') format('svg');
+}
+*{
+	font-family: 'cac_Action_Man', Arial, serif;
+}
+#fb, #tw, #lk { 
+	width:100px; 
+	height:100px; 
+	display:inline-flex; 
+	position: relative;
+	margin: 30px 0px 0px 20px;
+}
+
+H1{
+	color: white;
+	text-shadow:5px 3px rgb(168, 157, 179);
+	margin: -80px 0px 0px 1400px;
+	font-size: 80px;
+	animation: monAnimation 7s;
+	}
+	@keyframes monAnimation{
+		from{
+			color:white;
+		}
+		to{
+			color:black;
+		}
+	}
+H1{
+animation: monAnimation 5s infinite alternate-reverse;
+}
+
+#coordonnées{
+	height: 800px;
+	line-height: 1.5em;
+	margin-left: 1520px;
+	color:white;
+	font-size: 30px;
+}
+.tel{
+	margin-left: 100px;
+	margin-top: -20px;
+}
+#photominicv{
+	float:right;
+	margin:-100px 100px 0px 0px;
+	border-radius:30%;
+	border:5px double white;
+}
+h2{
+    font-weight: bold;
+		margin:45px 0px 5px 0px;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+}
+section div{
+    display: flex;
+    flex-flow: column wrap;
+}
+#motiv{
+	background-color:white;
+	opacity:0.4;
+	border:3px solid white;
+	border-radius: 30%;
+	text-align: center;
+	line-height: 30px;
+	margin: -750px 0px 0px 30px;
+	width: 900px;
+	height:600px;
+	font-size: 25px;
+}
+#motiv:hover{
+	background-color:white;
+	opacity:1;
+	border:3px solid white;
+	border-radius: 30%;
+	text-align: center;
+	line-height: 30px;
+	margin: -750px 0px 0px 30px;
+	width: 900px;
+	height:600px;
+	font-size: 25px;
+}
+
+h3{
+	margin: 25px 0px 5px 0px;
+}
+#Sites{
+	background-color:white;
+	opacity:0.4;
+	border:3px solid white;
+	border-radius: 30%;
+	text-align: center;
+	line-height: 35px;
+	margin: -400px 350px 0px 0px;
+	width: 400px;
+	height:350px;
+	font-size: 25px;
+}
+#Sites:hover{
+	background-color:white;
+	opacity:1;
+	border:3px solid white;
+	border-radius: 30%;
+	text-align: center;
+	line-height: 35px;
+	margin: -400px 350px 0px 0px;
+	width: 400px;
+	height:350px;
+	font-size: 25px;
+}
+a:visited{
+	color:blue;
+}
